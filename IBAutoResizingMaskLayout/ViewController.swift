@@ -9,12 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet private var tileView: TileView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
 
-
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        // 5% radius
+        let radius = tileView.bounds.width / 20
+        tileView.layer.cornerRadius = radius
+    }
 }
 

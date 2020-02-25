@@ -13,6 +13,7 @@
 		D9A7B7942403EB7600B16212 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9A7B7922403EB7600B16212 /* Main.storyboard */; };
 		D9A7B7962403EB7900B16212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9A7B7952403EB7900B16212 /* Assets.xcassets */; };
 		D9A7B7992403EB7900B16212 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9A7B7972403EB7900B16212 /* LaunchScreen.storyboard */; };
+		D9A7B7A12403F44E00B16212 /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A7B7A02403F44E00B16212 /* TileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D9A7B7952403EB7900B16212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9A7B7982403EB7900B16212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9A7B79A2403EB7900B16212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9A7B7A02403F44E00B16212 /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				D9A7B78C2403EB7600B16212 /* AppDelegate.swift */,
 				D9A7B78E2403EB7600B16212 /* SceneDelegate.swift */,
 				D9A7B7902403EB7600B16212 /* ViewController.swift */,
+				D9A7B7A02403F44E00B16212 /* TileView.swift */,
 				D9A7B7922403EB7600B16212 /* Main.storyboard */,
 				D9A7B7952403EB7900B16212 /* Assets.xcassets */,
 				D9A7B7972403EB7900B16212 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				D9A7B7912403EB7600B16212 /* ViewController.swift in Sources */,
 				D9A7B78D2403EB7600B16212 /* AppDelegate.swift in Sources */,
+				D9A7B7A12403F44E00B16212 /* TileView.swift in Sources */,
 				D9A7B78F2403EB7600B16212 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
